@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.project_container{
+  margin-top :100px ;
+}
+
+.skills_container{
+  margin-top: 5rem;
+  background :url('img/back1.jpg');
+    background-position: right ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display : flex ;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center ;
+}

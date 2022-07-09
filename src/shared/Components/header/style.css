@@ -1,0 +1,31 @@
+h2{
+    color :blue;
+    font-size: 3rem ;
+    /* border : 2px solid red ; */
+
+}
+header{
+    /* border : 2px solid red ; */
+    display: flex ;
+   align-items: center ;
+   justify-content: space-around;
+  gap : 500px;
+  height : 100px ;
+  background: #ffffff;
+  box-shadow: 1px 1px 11px 0px #ebe8ef;
+  
+    
+}
+.navitems {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap :50px ;
+    list-style: none;
+}
+.listitems{
+    list-style: none;
+    text-decoration: none ;
+    color : black;
+font-size: 22px;
+}

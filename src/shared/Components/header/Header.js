@@ -10,7 +10,7 @@ export const Header = () => {
         <ul className = 'navitems' >
         <Link className = 'listitems'to = '/project' > Projects </Link>
          <Link className = 'listitems'to = '/skills' > Skills </Link> 
-        <Link className = 'listitems'to = '/projects' > Achievments </Link> 
+        <Link className = 'listitems'to = '/achivements' > Achievments </Link> 
         </ul>
 
         </nav> 

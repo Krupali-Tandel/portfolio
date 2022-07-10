@@ -3,25 +3,25 @@ import Project from './Project';
 import './style.css' 
 
 const projectData = [{
-    name:"Project 1",
-    description:"Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    skills:['SASS','TypeScript','React'],
-    github:"https://github.com/",
-    linkedIn:"https://www.linkedin.com/"
+    name:"Hosteller",
+    description:"Hosteller is Hostel managment website that manages the records of the students and the hostel",
+    skills:['Html','CSS','JS' , 'BootStrap' , 'MYSQL','PHP'],
+    github:"https://github.com/Krupali-Tandel/Hostel_Managment_system.git",
+    linkedIn:"https://github.com/Krupali-Tandel"
 },
 {
-    name:"Project 2",
-    description:"Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    skills:['SASS','TypeScript','React'],
-    github:"https://github.com/",
-    linkedIn:"https://www.linkedin.com/"
+    name:"Miwok",
+    description:"Miwok is an application that can be used to learn japanese",
+    skills:['Android' , 'java'],
+    github:"https://github.com/Krupali-Tandel/Android-Studio.git",
+    linkedIn:"https://github.com/Krupali-Tandel"
 },
 {
-    name:"Project 3",
-    description:"Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    skills: ['SASS','TypeScript','React'],
+    name:"Email Sending App",
+    description:"With the help of this application email can be send ",
+    skills: ['HTML','CSS' ,'Python' , 'Django'],
     github:"https://github.com/",
-    linkedIn:"https://www.linkedin.com/"
+    linkedIn:"https://github.com/Krupali-Tandel"
 },
 {
     name:"Project 4",

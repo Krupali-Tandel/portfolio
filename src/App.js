@@ -4,7 +4,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Homepage } from './pages/homepage/Homepage';
 import ProjectContainer from './pages/homepage/project/ProjectContainer';
 import SkillsContainer from './pages/homepage/skills/SkillsContainer';
-import Footer from './shared/Components/Footer/Footer'
+import AchiveContain from './pages/homepage/achivements/AchiveContain';
+
 function App() {
     return ( 
         
@@ -15,21 +16,11 @@ function App() {
         <Route path = "/" element = { <Homepage /> }/>
         <Route path="/project" element={<ProjectContainer />} />
         <Route path="/skills" element={<SkillsContainer />} />
+        <Route path="/achivements" element={<AchiveContain />} />
          </Routes> 
          
          </BrowserRouter>
          
-         <div className='project_container'><h1>PROJECTS </h1></div>
-         <ProjectContainer />
-         
-         <div className = "skills_container">
-         <h1>Skills</h1>
-         <SkillsContainer /></div>
-        
-        
-         <div className = 'footer_Container'>
-            <Footer />
-         </div>
         </div>
     );
 }

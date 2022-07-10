@@ -15,21 +15,8 @@ const projectData = [{
     skills:['Android' , 'java'],
     github:"https://github.com/Krupali-Tandel/Android-Studio.git",
     linkedIn:"https://github.com/Krupali-Tandel"
-},
-{
-    name:"Email Sending App",
-    description:"With the help of this application email can be send ",
-    skills: ['HTML','CSS' ,'Python' , 'Django'],
-    github:"https://github.com/",
-    linkedIn:"https://github.com/Krupali-Tandel"
-},
-{
-    name:"Project 4",
-    description:"Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    skills:['SASS','TypeScript','React'],
-    github:"https://github.com/",
-    linkedIn:"https://www.linkedin.com/"
 }
+
 ];
 
 const ProjectContainer = () => {
